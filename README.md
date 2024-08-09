@@ -1,19 +1,15 @@
-# Multi-Person-Face-Recognition
-The project is to create a trained ML model that can perform multi-person identification in the live video feed on NVIDIA A100 DGX Server. 
 
 
-We have used popular DLib and face_recognition libraries as the basis of the project 
-- https://github.com/ageitgey/face_recognition
+# Multi-Person Face Recognition
 
+## Description
 
-## Creating Docker Image
-- Clone the repository
-- Change the directory to the cloned repository
-- Run the following command to create the docker image
-    1. On DGX Server
-        - `docker build -t Multi-Person-Face-Recognition:latest .`
-    2. On Local Machine
-        - `docker build -t Multi-Person-Face-Recognition:latest -f Dockerfile.local .`
+This project implements a machine learning model for detecting and identifying multiple faces in live video feeds. It utilizes the DLib and `face_recognition` libraries and runs on the NVIDIA A100 DGX Server for optimized performance.
 
-## Running the Docker Image
+## Potential Use Cases
+
+- **Security and Surveillance:** Enhance security systems by identifying and tracking individuals in real-time.
+- **Attendance Systems:** Automate attendance tracking in offices, schools, or events by recognizing faces.
+- **Customer Analytics:** Analyze customer demographics and interactions in retail environments.
+- **Interactive Applications:** Create interactive experiences that require user identification or personalization.
 
